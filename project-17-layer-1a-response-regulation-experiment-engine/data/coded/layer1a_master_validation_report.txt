@@ -1,0 +1,66 @@
+Layer 1.A Master Coding Batch Validation Report
+====================================================
+Input zip: PF-01~14_coding_batch.zip
+CSV files found: 14
+Total rows: 210
+Unique trial_id: 210
+Duplicate trial_id count: 0
+Duplicate trial_id list: None
+Fieldname mismatches: None
+
+PF row counts:
+  PF-01: 15
+  PF-02: 15
+  PF-03: 15
+  PF-04: 15
+  PF-05: 15
+  PF-06: 15
+  PF-07: 15
+  PF-08: 15
+  PF-09: 15
+  PF-10: 15
+  PF-11: 15
+  PF-12: 15
+  PF-13: 15
+  PF-14: 15
+
+PF count anomalies: None
+Variant count anomalies: None
+Trailing-space issues in target columns: 0
+PF-05 'e1 , L4' internal-space issue count: 0
+
+Metadata / required-field checks:
+  coding_pass_not_pass1: 0
+  coder_id_not_WJ: 0
+  include_in_final_not_1: 0
+  missing_dominant_signature: 0
+  missing_intensity_score: 0
+  missing_coder_notes: 0
+
+Dominant signature counts:
+  none: 69
+  e3: 15
+  L5: 15
+  L8: 15
+  e4: 15
+  L1: 12
+  e6: 12
+  e8: 12
+  L7: 9
+  L9: 9
+  e9: 9
+  L6: 6
+  e7: 6
+  L2: 3
+  L3: 3
+
+Intensity counts:
+  0: 69
+  1: 33
+  2: 78
+  3: 30
+
+Failure mode counts:
+  under_suppression: 6
+
+FINAL VALIDATION: PASS

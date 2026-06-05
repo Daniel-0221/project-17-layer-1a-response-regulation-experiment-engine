@@ -1,0 +1,102 @@
+{
+  "project_id": "project-17-layer-1a-response-regulation-experiment-engine",
+  "study_name": "Layer 1.A Response Regulation Experiment",
+  "version": "1.0.0",
+  "status": "finalized_first_pass_empirical_batch",
+  "execution_stage": {
+    "current_stage": "first_pass_empirical_outputs_finalized",
+    "active_registry_scope": "core_only",
+    "raw_responses_collected": true,
+    "manual_coding_completed": true,
+    "first_pass_coding_completed": true,
+    "reliability_analysis_completed": false,
+    "results_generated": true
+  },
+  "active_experiment_scope": {
+    "active_registry": "core",
+    "active_prompt_registry_file": "prompts/prompt_registry_core.csv",
+    "active_output_file": "data/raw/raw_responses_core.csv",
+    "included_prompt_families": "PF-01 to PF-14",
+    "excluded_prompt_registries": [
+      "prompts/prompt_registry_extended.csv",
+      "prompts/prompt_registry_future.csv"
+    ],
+    "exclusion_note": "Extended and future validation registries are preserved for later validation, coverage repair, and audit work, but they are not included in the finalized first-pass empirical batch reported here."
+  },
+  "finalized_batch_summary": {
+    "prompt_family_count": 14,
+    "prompt_family_range": "PF-01 to PF-14",
+    "prompt_variants_per_family": 5,
+    "repetitions_per_variant": 3,
+    "rows_per_prompt_family": 15,
+    "total_coded_trials": 210,
+    "unique_trial_id_values": 210,
+    "duplicate_trial_id_values": 0,
+    "included_in_final_analysis": 210,
+    "coding_pass": "pass1",
+    "coder_id": "WJ",
+    "coding_dates_observed": [
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-05"
+    ]
+  },
+  "model_execution_metadata": {
+    "model": "not_recorded_in_master_dataset",
+    "provider": "not_recorded_in_master_dataset",
+    "temperature": "not_recorded_in_master_dataset",
+    "top_p": "not_recorded_in_master_dataset",
+    "execution_date": "not_recorded_in_master_dataset",
+    "execution_time": "not_recorded_in_master_dataset",
+    "note": "The finalized coding dataset preserves prompt_text and response_text for all 210 trials. Low-level execution metadata such as exact model identifier, provider, decoding settings, and execution timestamps were not recorded as row-level fields in the finalized master coding batch; these fields are therefore not reconstructed by assumption."
+  },
+  "dataset_locations": {
+    "primary_coding_dataset": "data/coded/layer1a_master_coding_batch.csv",
+    "archived_prompt_family_batches": "data/coded/PF-01~14_coding_batch.zip",
+    "reconstructed_raw_response_file": "data/raw/raw_responses_core.csv",
+    "reconstructed_trial_master_file": "data/processed/trial_master.csv",
+    "reconstructed_clean_response_file": "data/processed/response_cleaned.csv",
+    "result_tables": "results/tables/",
+    "result_figures": "results/figures/",
+    "analysis_script": "analysis/analyze_layer1a_coding_batch.py"
+  },
+  "validation_status": {
+    "final_validation": "PASS",
+    "total_rows": 210,
+    "unique_trial_id_values": 210,
+    "duplicate_trial_id_values": 0,
+    "all_prompt_families_have_15_rows": true,
+    "all_prompt_variants_have_3_rows": true,
+    "prompt_family_row_count_anomalies": [],
+    "variant_count_anomalies": [],
+    "source_files_observed": [
+      "PF-01_coding_batch.csv",
+      "PF-02_coding_batch.csv",
+      "PF-03_coding_batch.csv",
+      "PF-04_coding_batch.csv",
+      "PF-05_coding_batch.csv",
+      "PF-06_coding_batch.csv",
+      "PF-07_coding_batch.csv",
+      "PF-08_coding_batch.csv",
+      "PF-09_coding_batch.csv",
+      "PF-10_coding_batch.csv",
+      "PF-11_coding_batch.csv",
+      "PF-12_coding_batch.csv",
+      "PF-13_coding_batch.csv",
+      "PF-14_coding_batch.csv"
+    ]
+  },
+  "reliability_status": {
+    "pass2_blind_recoding_completed": false,
+    "multi_coder_reliability_completed": false,
+    "current_results_type": "finalized_first_pass_manual_coding",
+    "note": "The present empirical results are based on finalized first-pass manual coding. No pass2 blind recoding or multi-coder reliability analysis is reported in the current batch."
+  },
+  "interpretation_limits": {
+    "black_box_only": true,
+    "no_internal_mechanism_claim": true,
+    "no_hidden_module_claim": true,
+    "no_policy_component_activation_claim": true,
+    "no_implementation_level_architecture_claim": true
+  }
+}
