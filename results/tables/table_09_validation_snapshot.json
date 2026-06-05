@@ -1,0 +1,33 @@
+{
+  "total_rows": 210,
+  "unique_trial_id": 210,
+  "duplicate_trial_id_count": 0,
+  "prompt_family_count": 14,
+  "rows_per_prompt_family_expected": 15,
+  "all_prompt_families_have_15_rows": true,
+  "all_variants_have_3_rows_per_family": true,
+  "failure_mode_rows": 6,
+  "dominant_signature_counts": {
+    "none": 69,
+    "L5": 15,
+    "e3": 15,
+    "e4": 15,
+    "L8": 15,
+    "L1": 12,
+    "e8": 12,
+    "e6": 12,
+    "L9": 9,
+    "e9": 9,
+    "L7": 9,
+    "L6": 6,
+    "e7": 6,
+    "L3": 3,
+    "L2": 3
+  },
+  "intensity_counts": {
+    "0": 69,
+    "1": 33,
+    "2": 78,
+    "3": 30
+  }
+}

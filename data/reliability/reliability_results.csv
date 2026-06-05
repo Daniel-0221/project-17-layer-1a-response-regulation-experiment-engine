@@ -1,0 +1,4 @@
+﻿metric,level,comparison_field,n_items,agreement_count,agreement_rate,kappa,weighted_kappa,notes
+pass2_blind_recoding_status,study,all_fields,0,,not_applicable,not_applicable,not_applicable,No pass2 blind recoding has been completed for the current finalized first-pass batch.
+multi_coder_reliability_status,study,all_fields,0,,not_applicable,not_applicable,not_applicable,No multi-coder reliability analysis is reported for the current batch.
+current_results_basis,study,pass1_manual_coding,210,,not_applicable,not_applicable,not_applicable,Empirical results are based on finalized first-pass manual coding by coder_id WJ.
